@@ -1,0 +1,39 @@
+[project]
+name = 'mlfcs'
+description = 'A library for analysing FCS data to do model classification and estimation of diffusion coefficient and anomalous exponent.'
+
+dependencies = [
+  'numpy==1.26.2',
+  'pandas',
+  'scipy',
+  'joblib',
+  'scikit-learn==1.2.2',
+  'pyptu',
+  'pathlib',
+  'matplotlib',
+<<<<<<< HEAD
+  'seaborn'
+]
+=======
+  'seaborn']
+>>>>>>> 24b1018ec4d96e80ce794953cba5bb71da980779
+authors = [
+  {name = 'Nathan Quiblier', email = 'nathan.quiblier@inria.fr' }
+]
+requires-python = '>=3.6'
+# https://pypi.org/classifiers/
+classifiers = [
+  'Operating System :: OS Independent',
+  'Programming Language :: Python :: 3'
+]
+readme = 'README.md'
+dynamic = ['version']
+
+[project.urls]
+Source = 'https://gitlab.inria.fr/nquilbie/mlfcs'
+Documentation = 'https://gitlab.inria.fr/nquilbie/mlfcs'
+
+
+
+[tool.pylint.'MESSAGES CONTROL']
+max-line-length = 100
